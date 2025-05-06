@@ -124,11 +124,14 @@ The dataset is stored in a CSV file with the following structure: (Note: Revise 
 
 ### Discussion
 
-- Play with your sorting hat. Are all 10 questions important to create the sorting hat? If you were to remove some questions to improve user experience, which questions would you remove and justify your answer.
+- Play with your sorting hat. Are all 10 questions important to create the sorting hat? If you were to remove some questions to improve user experience, which questions would you remove and justify your answer. <br>
+**Not all questions are important to create the sorting hat. I would remove question 4, 7, 8 because in the desicion tree model, they are not at all used as a criterion.**
+  
 - If you were to improve the sorting hat, what technical improvements would you make? Consider:
   - How could you improve the model's accuracy or efficiency?
   - What additional sensors or hardware could enhance the user experience?
-  - Does decision tree remain suitable for your choice of new sensors? If yes, carefully justify your answer. If not, what ML model would you use and explain why.
+  - Does decision tree remain suitable for your choice of new sensors? If yes, carefully justify your answer. If not, what ML model would you use and explain why. <br>
+**I would increase the data sample size. Give weight to more important questions by design. Adding pull-up may help with the stablility of the reading so that the button is not overly sensitive to choose for two questions in one go. It should since it's not changing any mechanism.**
 
 
 ## Deliverables
