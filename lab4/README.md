@@ -37,9 +37,6 @@ TECHIN515-magic-wand/
 │
 ├── docs/
 │   ├── report.pdf              # Final report in PDF format
-|
-├── media/
-│   └── demo.mp4                # Link or file for the demo video
 │
 ├── enclosure/             # CAD/STL files or images of the final enclosure
 │   ├── final-enclosure-images/
