@@ -70,9 +70,9 @@ void sendRawDataToServer(const char* gesture, float confidence) {
 }
 
 // 引脚定义
-#define RED_LED    D2
+#define RED_LED    D0
 #define GREEN_LED  D1
-#define BLUE_LED   D0
+#define BLUE_LED   D2
 #define BUTTON_PIN D3
 
 // 传感器对象
